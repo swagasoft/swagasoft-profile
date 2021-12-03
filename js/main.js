@@ -1,3 +1,7 @@
+var  showSent = false;
+var  showError = false;
+var  messageError = '';
+
 (function ($) {
 	"use strict";
 	var nav = $('nav');
@@ -123,3 +127,14 @@ $("#hid").click(function(){
 $("#show").click(function(){
   $("article").show();
 });
+
+
+function submitcontactUs(name, email, subject, text) {
+
+	console.log('OBssss ', name.value)
+	console.log('OBssss ', email.value)
+	console.log('OBssss ', subject.value)
+	console.log('OBssss ', text.value)
+
+
+}
